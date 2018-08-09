@@ -1,0 +1,296 @@
+{
+  "homePage": [
+    {"index": 0,"text": "首页"},
+    {"index": 1,"text": "我的订单"},
+    {"index": 2,"text": "加盟合作"},
+    {"index": 3,"text": "我的客服"}
+  ],
+  "allBusinesses": [
+    {"index": 0,"text": "全部商家" },
+    {"index": 1 ,"text": "美食"},
+    {"index": 2,"text": "快餐便当" },
+    {"index": 3,"text": "特色菜系" },
+    {"index": 4,"text": "异国料理" },
+    {"index": 5,"text": "小吃夜宵" },
+    {"index": 6,"text": "甜品饮品" },
+    {"index": 7,"text": "果蔬生鲜" },
+    {"index": 8,"text": "商品超市" },
+    {"index": 9,"text": "鲜花绿植" },
+    {"index": 10,"text": "医药健康" },
+    {"index": 11,"text": "早餐" },
+    {"index": 12,"text": "午餐" },
+    {"index": 13,"text": "下午茶" },
+    {"index": 14,"text": "晚餐" },
+    {"index": 15,"text": "夜宵" }
+  ],
+  "cooperation": [
+    {"text": "我要开店"},
+    {"text": "加盟指南"},
+    {"text": "市场合作"},
+    {"text": "开放平台"}
+  ],
+  "aboutUs": [
+    {"text": "饿了么介绍"},
+    {"text": "加入我们"},
+    {"text": "加入我们"},
+    {"text": "规则介绍"}
+  ],
+  "businessMessage": [
+    {
+      "id": 0,
+      "src": "static/img/1.png",
+      "name": "魏家凉皮(高新店)",
+      "minute": 31,
+      "book": "可预订，09:40后送餐",
+      "img_src":"static/img/fourstars.png",
+      "piecewise_agent_fee": {
+        "description": "配送费¥2.1",
+        "extra_fee": 0,
+        "is_extra": false,
+        "rules": [
+          {
+            "fee": 2.1,
+            "price": 20
+          }
+        ],
+        "tips": "优惠配送费¥2.1"
+      },
+      "promotion_info": "",
+      "support_tags": [
+        {
+          "text": "凉皮 肉夹馍"
+        }
+      ],
+      "supports": [
+        {
+          "description": "",
+          "icon_name": ""
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "src": "static/img/2.png",
+      "name": "飞象比萨（大唐西市店）",
+      "minute": 45,
+      "book": "可预订，10:40后送餐",
+      "img_src":"static/img/fivestars.png",
+      "piecewise_agent_fee": {
+        "description": "配送费¥1.1",
+        "extra_fee": 0,
+        "is_extra": false,
+        "rules": [
+          {
+            "fee": 1.1,
+            "price": 20
+          }
+        ],
+        "tips": "优惠配送费¥1.1"
+      },
+      "promotion_info": "",
+      "support_tags": [
+        {
+          "text": "披萨 汉堡"
+        }
+      ],
+      "supports": [
+        {
+          "description": "该商户食品安全已由国泰产险承担，食品安全有保障",
+          "icon_name": "保"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "src": "static/img/3.png",
+      "name": "必胜客宅急送（高新店）",
+      "minute": 35,
+      "book": "",
+      "img_src":"static/img/threestars.png",
+      "piecewise_agent_fee": {
+        "description": "配送费¥5",
+        "extra_fee": 0,
+        "is_extra": false,
+        "rules": [
+          {
+            "fee": 5,
+            "price": 0
+          }
+        ],
+        "tips": "配送费¥5"
+      },
+      "promotion_info": "配送费现从9元优惠至5元,该优惠将在小票的本单优惠金额中立减。用餐高峰时间可能会延长送餐时间，请以实际送餐时间为准。如果需要Fapiao请在订单备注Fapiao,我们将为您提供电子Fapiao提取码。比萨尺寸为英寸,指烤盘的直径,仅供参考,实际规格请以克重为准。",
+      "support_tags": [
+        {
+          "text": "披萨 牛排"
+        }
+      ],
+      "supports": [
+        {
+          "description": "该商家支持开发票，请在下单时填写好发票抬头",
+          "icon_name": "票"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "src": "static/img/4.png",
+      "name": "小六汤包(大寨路店)",
+      "minute": 34,
+      "book": "",
+      "img_src":"static/img/fivestars.png",
+      "piecewise_agent_fee": {
+        "description": "配送费¥2.6",
+        "extra_fee": 0,
+        "is_extra": false,
+        "rules": [
+          {
+            "fee": 2.6,
+            "price": 20
+          }
+        ],
+        "tips": "优惠配送费¥2.6"
+      },
+      "promotion_info": "夏季来临，小六汤包为您准备了各种美味欢迎品尝，新品源源不断让美味在舌尖上跳舞。",
+      "support_tags": [
+        {
+          "text": "包子粥店"
+        }
+      ],
+      "supports": [
+        {
+          "description": "该商户食品安全已由国泰产险承担，食品安全有保障",
+          "icon_name": "保"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "src": "static/img/5.png",
+      "name": "大香港酒楼（高新店）",
+      "minute": 40,
+      "book": "可预订，10:20后送餐",
+      "img_src":"static/img/twostars.png",
+      "piecewise_agent_fee": {
+        "description": "配送费¥3.1",
+        "extra_fee": 0,
+        "is_extra": false,
+        "rules": [
+          {
+            "fee": 3.1,
+            "price": 15
+          }
+        ],
+        "tips": "配送费¥3.1"
+      },
+      "promotion_info": "1、亲们，我店推出“夜间专供茶点”，为夜晚加班的人们提供温馨的送餐服务，欢迎各位光临点餐。\n2、夜间专供茶点点餐时间：21：00-23：55；\n3、夜间联系电话：88220622",
+      "support_tags": [
+        {
+          "text": "粤菜"
+        }
+      ],
+      "supports": [
+        {
+          "description": "该商户食品安全已由国泰产险承担，食品安全有保障",
+          "icon_name": "保"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "src": "static/img/6.png",
+      "name": "外婆印象（唐延店）",
+      "minute": 31,
+      "book": "",
+      "img_src":"static/img/fourstars.png",
+      "piecewise_agent_fee": {
+        "description": "配送费¥3.1",
+        "extra_fee": 0,
+        "is_extra": false,
+        "rules": [
+          {
+            "fee": 3.1,
+            "price": 20
+          }
+        ],
+        "tips": "配送费¥3.1"
+      },
+      "promotion_info": "亲，本店优先配送饿了么外卖订单！！！\n1.为了保证餐品及时送达，请您提前下单及留下详细地址和电话，并保持电话畅通\n2.请您确认餐品封口贴完好。若有破损，请您拒收。\n3.如遇到用餐高峰期及特殊天气，送餐时间稍有延迟，但我们会尽快送到您手中！4.外婆印象携手饿了么祝您用餐愉快",
+      "support_tags": [
+        {
+          "text": "江浙菜"
+        }
+      ],
+      "supports": [
+        {
+          "description": "该商户食品安全已由国泰产险承担，食品安全有保障",
+          "icon_name": "保"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "src": "static/img/7.png",
+      "name": "独一佳湘菜(高新四路店)",
+      "minute": 20,
+      "book": "",
+      "img_src":"static/img/fivestars.png",
+      "piecewise_agent_fee": {
+        "description": "配送费¥2.6",
+        "extra_fee": 0,
+        "is_extra": false,
+        "rules": [
+          {
+            "fee": 2.6,
+            "price": 20
+          }
+        ],
+        "tips": "优惠配送费¥2.6"
+      },
+      "promotion_info": "尊敬的客人，本店位于高新四路南二环边，为了不影响你的用餐，请你下单时注意一下，配送的距离，谢谢合作",
+      "support_tags": [
+        {
+          "text": "川湘菜"
+        }
+      ],
+      "supports": [
+        {
+          "description": "",
+          "icon_name": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "src": "static/img/8.png",
+      "name": "飘香排骨米饭",
+      "minute": 29,
+      "book": "可预订，09:30后送餐",
+      "img_src":"static/img/threestars.png",
+      "piecewise_agent_fee": {
+        "description": "配送费¥3.1",
+        "extra_fee": 0,
+        "is_extra": false,
+        "rules": [
+          {
+            "fee": 3.1,
+            "price": 20
+          }
+        ],
+        "tips": "配送费¥3.1"
+      },
+      "promotion_info": "煲汤时，都尽量少放调味品，只让食物们自己尽情地翻滚、酝酿、融合。要给食物时间，亦如给自己时间，不着急，不慌张。煲汤是个修心的过程，因为要有耐心，愿意等，等那一锅分离的食物慢慢变成一锅融汇在一起的汤。\n\n我们提供纯正炖汤 ，不使用添加剂，不使用料理包，放心食用，食品安全！\n\n",
+      "support_tags": [
+        {
+          "text": "简餐"
+        }
+      ],
+      "supports": [
+        {
+          "description": "该商家支持开发票，开票订单金额50元起，请在下单时填写好发票抬头",
+          "icon_name": "票"
+        }
+      ]
+    }
+  ]
+}
