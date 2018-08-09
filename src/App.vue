@@ -1,23 +1,21 @@
 <template>
   <div id="app">
-     <top></top>
+     <pagenow></pagenow>
     <router-view></router-view>
     <footerbottom></footerbottom>
   </div>
 </template>
 <script>
-  import  top from "@/components/top"
+  import  pagenow from "@/components/pagenow"
   import  footerbottom from "@/components/footerbottom"
 export default {
   name: 'App',
   components:{
-      top,
+      pagenow,
       footerbottom
   }
 }
 </script>
-
-
 <style>
   body,div,ul,li {
     margin: 0;

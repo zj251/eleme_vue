@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/hello'
-import top from '@/components/top'
+import pagenow from '@/components/pagenow'
 
 Vue.use(Router)
 
@@ -12,9 +12,9 @@ export default new Router({
       component: Hello
     },
     {
-      path: '/top',
-      name: 'top',
-      component: top
+      path: '/pagenow',
+      name: 'pagenow',
+      component: pagenow
     }
   ]
 })
