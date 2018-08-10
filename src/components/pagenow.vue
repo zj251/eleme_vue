@@ -9,7 +9,7 @@
         <div class="rule pullLeft">
           <a  class="navWord pullLeft" href="">规则中心</a>
           <div class="phone pullLeft" v-phone>
-            <img src="../../static/img/phone.PNG" alt="">
+            <img src="../../static/img/phone.png" alt="">
             <a class="navWord" href="">手机应用</a>
             <div class="newPhone"  >
               <span class="richScan">扫一扫，手机订餐更方便</span>
