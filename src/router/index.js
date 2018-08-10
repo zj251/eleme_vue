@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/hello'
 import pagenow from '@/components/pagenow'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [

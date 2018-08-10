@@ -93,14 +93,14 @@
             <span>24小时热线服务：10105757</span>
             <div class="followUs">关注我们：
               <div>
-                <div class="wechat pullLeft">
+                <div class="wechat pullLeft" v-weChat>
                   <div class="wechatCon">
                     <img  src="../../static/img/wexinqc100@2x.393ade.png">
                     <p class="wechatNum">微信号: elemeorder</p>
                     <p  class="wechatOrder">饿了么网上订餐</p>
                   </div>
                 </div>
-                <div class="weibo pullLeft" ></div>
+                <div class="weibo pullLeft" v-weiBo></div>
               </div>
             </div>
           </div>
@@ -115,7 +115,6 @@
       </div>
     </div>
   </div>
-
 </template>
 
 <script>
@@ -187,19 +186,29 @@ export default {
         };
       }
     },
-  /*  weChat: {
+    weChat: {
       update: function (el) {
         var wechatCon = document.getElementsByClassName("wechatCon")[0];
         el.onmouseenter = function () {
           wechatCon.style.display = "block";
-          // el.style.background = " url(\"../../static/img/icon.png\") no-repeat  0 -74px ;";
+          el.style.background = "url(\"../../static/img/icon.png\") no-repeat  0 -74px";
         };
         el.onmouseleave = function () {
           wechatCon.style.display = "none";
-          // el.style.background = " url(\"../../static/img/icon.png\") no-repeat  0  -44px ;"
+          el.style.background = "url(\"../../static/img/icon.png\") no-repeat  0  -44px";
         };
       }
-    },*/
+    },
+    weiBo: {
+      update: function (el) {
+        el.onmouseenter = function () {
+          el.style.background = "url(\"../../static/img/icon.png\") no-repeat  0 -135px";
+        };
+        el.onmouseleave = function () {
+          el.style.background = "url(\"../../static/img/icon.png\") no-repeat  0  -105px";
+        };
+      }
+    },
     search: {
       update: function (el) {
         el.onclick = function () {

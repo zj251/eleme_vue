@@ -267,15 +267,6 @@
     width: 28px;
     height: 24px;
   }
-  .wechat:hover {
-    background: url("../../static/img/icon.png") no-repeat 0 -74px;
-  }
-  .wechat:hover .wechatCon {
-    display: block;
-  }
-  .weibo:hover {
-    background: url("../../static/img/icon.png") no-repeat 0 -135px;
-  }
   .wechatScan > img {
     width: 90px;
     position: absolute;
