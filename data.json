@@ -70,38 +70,6 @@
     },
     {
       "id": 1,
-      "src": "static/img/2.png",
-      "name": "飞象比萨（大唐西市店）",
-      "minute": 45,
-      "book": "可预订，10:40后送餐",
-      "img_src":"static/img/fivestars.png",
-      "piecewise_agent_fee": {
-        "description": "配送费¥1.1",
-        "extra_fee": 0,
-        "is_extra": false,
-        "rules": [
-          {
-            "fee": 1.1,
-            "price": 20
-          }
-        ],
-        "tips": "优惠配送费¥1.1"
-      },
-      "promotion_info": "",
-      "support_tags": [
-        {
-          "text": "披萨 汉堡"
-        }
-      ],
-      "supports": [
-        {
-          "description": "该商户食品安全已由国泰产险承担，食品安全有保障",
-          "icon_name": "保"
-        }
-      ]
-    },
-    {
-      "id": 2,
       "src": "static/img/3.png",
       "name": "必胜客宅急送（高新店）",
       "minute": 35,
@@ -129,6 +97,38 @@
         {
           "description": "该商家支持开发票，请在下单时填写好发票抬头",
           "icon_name": "票"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "src": "static/img/2.png",
+      "name": "飞象比萨（大唐西市店）",
+      "minute": 45,
+      "book": "可预订，10:40后送餐",
+      "img_src":"static/img/fivestars.png",
+      "piecewise_agent_fee": {
+        "description": "配送费¥1.1",
+        "extra_fee": 0,
+        "is_extra": false,
+        "rules": [
+          {
+            "fee": 1.1,
+            "price": 20
+          }
+        ],
+        "tips": "优惠配送费¥1.1"
+      },
+      "promotion_info": "",
+      "support_tags": [
+        {
+          "text": "披萨 汉堡"
+        }
+      ],
+      "supports": [
+        {
+          "description": "该商户食品安全已由国泰产险承担，食品安全有保障",
+          "icon_name": "保"
         }
       ]
     },

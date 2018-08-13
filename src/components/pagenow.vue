@@ -2,7 +2,7 @@
   <div>
     <div class="topNav">
       <div class="subNav">
-        <img src="../../static/img/e.PNG" class="elemeLog">
+        <img src="../../static/img/e.png" class="elemeLog">
         <ul>
           <li v-for="(firstNav,index) in homePage" :class="{defaultBg: index == 0}"  v-focus>{{firstNav.text}}</li>
         </ul>
@@ -129,7 +129,7 @@ export default {
       businessMessage:""
     }
   },
-  created() {
+  mounted() {
     this.$http.get("/api/homePage").then(function (response){
       this.homePage=response.body.data;
     });
