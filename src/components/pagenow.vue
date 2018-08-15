@@ -7,11 +7,11 @@
           <li v-for="(firstNav,index) in homePage" :class="{defaultBg: index == 0}"  v-focus>{{firstNav.text}}</li>
         </ul>
         <div class="rule pullLeft">
-          <a  class="navWord pullLeft" href="">规则中心</a>
-          <div class="phone pullLeft" v-phone>
+          <a  class="navWord pullLeft" href="javascript:void(0)">规则中心</a>
+          <div class="phone pullLeft"  @mouseenter="enterPhone" @mouseleave="leavePhone">
             <img src="../../static/img/phone.png" alt="">
-            <a class="navWord" href="">手机应用</a>
-            <div class="newPhone"  >
+            <a class="navWord" href="javascript:void(0)">手机应用</a>
+            <div class="newPhone"  v-show="phoneShow" >
               <span class="richScan">扫一扫，手机订餐更方便</span>
               <img  src="../../static/img/wexinqc100@2x.393ade.png" alt="">
             </div>
@@ -54,7 +54,7 @@
                 <div :class="{book:data.book}">{{data.book}}</div>
               </div>
             </div>
-            <div  class="detail" >
+            <div  class="detail">
               <p class="cookNameNew">{{data.name}}</p>
               <p class="tip">{{data.support_tags[0].text}}</p>
               <hr width="100%">
@@ -93,7 +93,7 @@
             <span>24小时热线服务：10105757</span>
             <div class="followUs">关注我们：
               <div>
-                <div class="wechat pullLeft" v-weChat>
+                <div class="wechat pullLeft" v-wechat>
                   <div class="wechatCon">
                     <img  src="../../static/img/wexinqc100@2x.393ade.png">
                     <p class="wechatNum">微信号: elemeorder</p>
@@ -122,11 +122,21 @@ export default {
   name: 'pagenow',
   data(){
     return{
-      homePage:"",
-      allBusinesses:"",
-      cooperation:"",
-      aboutUs:"",
-      businessMessage:""
+      homePage: "",
+      allBusinesses: "",
+      cooperation: "",
+      aboutUs: "",
+      businessMessage: "",
+      phoneShow: false,
+      detailShow: false
+    }
+  },
+  methods:{
+    enterPhone(){
+      this.phoneShow = !this.phoneShow;
+    },
+    leavePhone(){
+      this.phoneShow = !this.phoneShow;
     }
   },
   mounted() {
@@ -175,18 +185,7 @@ export default {
         }
       }
     },
-    phone: {
-      update: function (el) {
-        var newphone = document.getElementsByClassName("newphone")[0];
-        el.onmouseenter = function () {
-          newphone.style.display = "block";
-        };
-        el.onmouseleave = function () {
-          newphone.style.display = "none";
-        };
-      }
-    },
-    weChat: {
+    wechat: {
       update: function (el) {
         var wechatCon = document.getElementsByClassName("wechatCon")[0];
         el.onmouseenter = function () {
